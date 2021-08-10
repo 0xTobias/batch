@@ -1,28 +1,23 @@
 {
-  "name": "hardhat-boilerplate",
+  "name": "batch",
   "version": "1.1.0",
-  "description": "Hardhat boilerplate",
+  "description": "Batching blockchain operations",
   "keywords": [
     "ethereum",
     "smart",
     "contracts",
     "test",
     "solidity",
-    "hardhat",
-    "boilerplate"
+    "hardhat"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/defi-wonderland/hardhat-boilerplate-ts.git"
+    "url": "git+https://github.com/tobaiaseth/batch.git"
   },
   "contributors": [
     {
-      "name": "404skillz",
-      "url": "https://github.com/404skillz"
-    },
-    {
-      "name": "kiwi745",
-      "url": "https://github.com/kiwi745"
+      "name": "Tobias",
+      "url": "https://github.com/tobaiaseth"
     }
   ],
   "scripts": {
@@ -82,8 +77,8 @@
     "dotenv": "10.0.0",
     "ethereum-waffle": "3.4.0",
     "ethers": "5.4.1",
-    "hardhat": "2.3.0",
-    "hardhat-gas-reporter": "1.0.4",
+    "hardhat": "^2.3.0",
+    "hardhat-gas-reporter": "^1.0.4",
     "hardhat-preprocessor": "0.1.4",
     "husky": "6.0.0",
     "inquirer": "8.1.0",
@@ -91,15 +86,15 @@
     "mocha": "9.0.0",
     "moment": "2.29.1",
     "pinst": "2.1.6",
-    "prettier": "2.3.1",
-    "prettier-plugin-solidity": "1.0.0-beta.13",
+    "prettier": "^2.3.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.13",
     "solc-0.8": "npm:solc@^0.8.5",
     "solhint": "3.3.6",
     "solhint-plugin-prettier": "0.0.5",
-    "solidity-coverage": "0.7.16",
+    "solidity-coverage": "^0.7.16",
     "solidity-docgen": "0.5.13",
     "sort-package-json": "1.50.0",
-    "standard-version": "9.3.0",
+    "standard-version": "^9.3.0",
     "ts-node": "10.0.0",
     "tsconfig-paths": "^3.9.0",
     "typechain": "5.1.1",
